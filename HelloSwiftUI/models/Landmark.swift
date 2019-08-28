@@ -2,8 +2,8 @@
 //  LandMark.swift
 //  SwiftUIToturials
 //
-//  Created by loni on 21/8/2019.
-//  Copyright © 2019 com.loni. All rights reserved.
+//  Created by lonnie on 21/8/2019.
+//  Copyright © 2019 lonnie. All rights reserved.
 //
 
 import UIKit
@@ -44,6 +44,7 @@ struct Landmark: Hashable, Codable, Identifiable {
 }
 
 extension Landmark {
+    
     var image: Image {
         ImageStore.shared.image(name: imageName)
     }

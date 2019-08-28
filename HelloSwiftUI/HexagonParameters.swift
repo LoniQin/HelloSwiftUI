@@ -2,8 +2,8 @@
 //  HexagonParameters.swift
 //  SwiftUIToturials
 //
-//  Created by gzuser on 21/8/2019.
-//  Copyright © 2019 com.gtomato.enterprice. All rights reserved.
+//  Created by lonnie on 21/8/2019.
+//  Copyright © 2019 lonnie. All rights reserved.
 //
 import UIKit
 struct HexagonParameters {
