@@ -5,7 +5,8 @@
 //  Created by lonnie on 21/8/2019.
 //  Copyright © 2019 lonnie. All rights reserved.
 //
-import UIKit
+import SwiftUI
+
 struct HexagonParameters {
     struct Segment {
         let useWidth: (CGFloat, CGFloat, CGFloat)
@@ -15,6 +16,7 @@ struct HexagonParameters {
     }
     
     static let adjustment: CGFloat = 0.085
+    
     static let points = [
         Segment(
             useWidth:  (1.00, 1.00, 1.00),
